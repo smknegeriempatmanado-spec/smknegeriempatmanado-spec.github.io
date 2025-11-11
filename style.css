@@ -252,7 +252,7 @@ nav ul li:hover .dropdown {
     text-align: center;
     color: white;
     z-index: 2;
-    background: rgba(0,0,0,0.5);
+    background: rgba(0, 191, 255, 0.7));
     padding: 30px;
     border-radius: 10px;
     width: 80%;
@@ -267,14 +267,7 @@ nav ul li:hover .dropdown {
 .slide-content p {
     font-size: 18px;
     margin-bottom: 25px;
-    /* Ganti background slide-content dengan warna biru cerah */
-.slider .slide-content {
-    background: linear-gradient(135deg, #00BFFF, #0080FF) !important; /* Gradien biru cerah */
-    border-radius: 15px; /* Sudut membulat untuk tampilan modern */
-    box-shadow: 0 8px 32px rgba(0, 191, 255, 0.3); /* Bayangan biru */
-    backdrop-filter: blur(5px); /* Efek blur untuk tampilan elegan */
-    border: 1px solid rgba(255, 255, 255, 0.2); /* Border tipis transparan */
-}
+
 }
 
 .slider-nav {
@@ -756,3 +749,4 @@ footer {
     }
 
 }
+
