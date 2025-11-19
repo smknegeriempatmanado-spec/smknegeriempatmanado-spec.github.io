@@ -1,6 +1,55 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header dengan Marquee</title>
+    <style>
+        /* Reset CSS dasar */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        /* Gaya untuk Header */
+        header {
+            background-color: #2c3e50; /* Warna background header gelap */
+            padding: 15px 0; /* Jarak atas dan bawah dalam header */
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Efek bayangan */
+        }
+
+        /* Gaya untuk marquee */
+        marquee {
+            font-size: 1.5rem; /* Ukuran font */
+            font-weight: bold;
+        }
+
+        /* Kelas untuk efek warna-warni */
+        .rainbow-text {
+            /* Animasi perubahan warna */
+            animation: color-change 3s linear infinite;
+        }
+
+        /* Keyframe untuk animasi warna */
+        @keyframes color-change {
+            0%   { color: #ff0000; } /* Merah */
+            17%  { color: #ff8800; } /* Oranye */
+            33%  { color: #ffff00; } /* Kuning */
+            50%  { color: #00ff00; } /* Hijau */
+            67%  { color: #0099ff; } /* Biru */
+            83%  { color: #6633ff; } /* Nila */
+            100% { color: #ff0000; } /* Kembali ke Merah */
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <marquee direction="left" scrollamount="8">
+            <span class="rainbow-text">🎉 Selamat Datang di Website Kami! Dapatkan Promo Spesial Hari Ini! 🎉</span>
+        </marquee>
+    </header>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SMK NEGERI 4 MANADO - Sekolah Unggulan Berbasis Teknologi</title>
@@ -303,6 +352,7 @@
 </body>
 
 </html>
+
 
 
 
