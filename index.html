@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-        <meta charset="UTF-8">
+       <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Header dengan Marquee</title>
+    <title>Header Pita Berjalan (Marquee)</title>
     <style>
         /* Reset CSS dasar */
         body {
@@ -14,32 +14,23 @@
 
         /* Gaya untuk Header */
         header {
-            background-color: #2c3e50; /* Warna background header gelap */
-            padding: 15px 0; /* Jarak atas dan bawah dalam header */
-            box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Efek bayangan */
+            padding: 20px 0; /* Beri jarak agar pita tidak menempel ke tepi */
         }
 
-        /* Gaya untuk marquee */
+        /* Gaya untuk marquee yang sekarang menjadi "pita" */
         marquee {
-            font-size: 1.5rem; /* Ukuran font */
+            font-size: 1.5rem;
             font-weight: bold;
-        }
-
-        /* Kelas untuk efek warna-warni */
-        .rainbow-text {
-            /* Animasi perubahan warna */
-            animation: color-change 3s linear infinite;
-        }
-
-        /* Keyframe untuk animasi warna */
-        @keyframes color-change {
-            0%   { color: #ff0000; } /* Merah */
-            17%  { color: #ff8800; } /* Oranye */
-            33%  { color: #ffff00; } /* Kuning */
-            50%  { color: #00ff00; } /* Hijau */
-            67%  { color: #0099ff; } /* Biru */
-            83%  { color: #6633ff; } /* Nila */
-            100% { color: #ff0000; } /* Kembali ke Merah */
+            color: white; /* Warna teks putih agar kontras */
+            
+            /* --- Efek Warna-Warni pada Background --- */
+            background: linear-gradient(to right, #ff416c, #ff4b2b);
+            
+            /* Beri padding agar teks tidak menempel di tepi pita */
+            padding: 10px 20px;
+            
+            /* Membuat sudut pita melengkung */
+            border-radius: 30px;
         }
     </style>
 </head>
@@ -47,7 +38,7 @@
 
     <header>
         <marquee direction="left" scrollamount="8">
-            <span class="rainbow-text">🎉 Selamat Datang di Website Kami! Dapatkan Promo Spesial Hari Ini! 🎉</span>
+            🎉 Selamat Datang di Website SMKN 4 Manado, Kami Siap Melayani Anda, Lokasi Banjer.Jln.Rambutan No.20. Kec.Tikala. Kota Manado 🎉
         </marquee>
     </header>
     <meta charset="UTF-8">
@@ -352,6 +343,7 @@
 </body>
 
 </html>
+
 
 
 
