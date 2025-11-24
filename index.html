@@ -340,9 +340,16 @@
     </footer>
 
     <script src="script.js"></script>
+                              <script>
+  // Toggle class .active pada <ul> saat .mobile-menu diklik
+  document.querySelector('.mobile-menu').addEventListener('click', () => {
+    document.querySelector('nav ul').classList.toggle('active');
+  });
+</script>
 </body>
 
 </html>
+
 
 
 
