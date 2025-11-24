@@ -722,7 +722,18 @@ footer {
     nav ul li:hover .dropdown {
         display: block;
     }
-    
+    .hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger span {
+    width: 25px;
+    height: 3px;
+    background: #fff;
+    margin: 3px 0;
+    transition: 0.3s;
     .mobile-menu {
         display: block;
         position: absolute;
@@ -820,3 +831,4 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+
