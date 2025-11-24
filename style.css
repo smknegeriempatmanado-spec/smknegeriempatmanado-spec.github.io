@@ -722,7 +722,7 @@ footer {
     nav ul li:hover .dropdown {
         display: block;
     }
-  
+    
     .mobile-menu {
         display: block;
         position: absolute;
@@ -820,5 +820,3 @@ footer {
         grid-template-columns: 1fr;
     }
 }
-
-
