@@ -243,7 +243,7 @@ nav ul li:hover .dropdown {
 /* Slider */
 .slider {
     position: relative;
-    height: 500px;
+    height: 300px;
     overflow: hidden;
     margin-top: -90px;
 }
@@ -820,3 +820,4 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+
