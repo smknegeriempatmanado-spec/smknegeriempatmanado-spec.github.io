@@ -1,59 +1,26 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-      <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SMKN 4 MANADO</title>
-    <style>
-        /* Reset CSS dasar */
-        body {
-            margin: 0;
-            /* Font untuk seluruh halaman */
-            font-family: "Monotype Corsiva", cursive;
-            background-color: #f0f0f0;
-        }
-
-        /* Gaya untuk Header */
-        header {
-            padding: 20px 0;
-        }
-
-        /* Gaya untuk marquee yang sekarang menjadi "pita" */
-        marquee {
-            /* --- PERUBAHAN 1: Ukuran font dibuat jauh lebih kecil --- */
-            font-size: 1rem; /* Ukuran font diubah dari 1.2rem menjadi 1rem */
-            font-weight: normal; /* Tidak perlu bold */
-            color: white;
-            
-            /* --- Efek Warna-Warni pada Background --- */
-            background: linear-gradient(to right, #ff416c, #ff4b2b);
-            
-            /* --- PERUBAHAN 2: Padding dibuat jauh lebih ramping --- */
-            padding: 3px 20px; /* Jarak atas/bawah diubah dari 5px menjadi 3px */
-            border-radius: 30px;
-        }
-    </style>
-</head>
-<body>
-
-    <header>
-        <marquee direction="left" scrollamount="8">
-             🙏 👩‍🎓Selamat Datang di Website SMKN 4 Manado, Menghasilkan lulusan yang kompeten dan siap kerja👨‍🎓 🙏
-        </marquee>
-    </header>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SMK NEGERI 4 MANADO - Sekolah Unggulan Berbasis Teknologi</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Top Marquee -->
+    <div class="top-bar">
+        <marquee direction="left" scrollamount="8">
+             🙏 👩‍🎓 Selamat Datang di Website SMKN 4 Manado, Menghasilkan lulusan yang kompeten dan siap kerja 👨‍🎓 🙏
+        </marquee>
+    </div>
+
     <!-- Header -->
     <header>
         <div class="container">
             <div class="logo">
-                <img src="image/logosmk.png" alt="">
-            
+                <img src="image/logosmk.png" alt="Logo SMK">
                 <div>
                     <h1>SMK NEGERI 4 MANADO</h1>
                     <p>"Terampil, Mandiri, Berkarakter"</p>
@@ -95,41 +62,33 @@
             </div>
         </div>
     </nav>
-<p>
-      <hr><hr><hr><hr>
-<div style="text-align: center;">
-    <a href="https://smknegeriempatmanado-spec.github.io/galerismkn4manado" class="btn">GALERI SMKN 4 MANADO</a>
-    <a href="https://smknegeriempatmanado-spec.github.io/infoprogramkeahliansmk4" class="btn">PROGRAM KEAHLIAN</a>
-      <a href="#" class="btn">------KONTAK-------</a>
-</div>
-<hr>
-</section>
+
+    <div class="quick-links">
+        <div class="container">
+            <a href="https://smknegeriempatmanado-spec.github.io/galerismkn4manado" class="btn-glow">GALERI</a>
+            <a href="https://smknegeriempatmanado-spec.github.io/infoprogramkeahliansmk4" class="btn-glow">PROGRAM KEAHLIAN</a>
+            <a href="#" class="btn-glow">KONTAK</a>
+        </div>
+    </div>
+
     <!-- Slider -->
     <section class="slider">
         <div class="slider-container">
-            <div class="slide active">
-              
-                <div class="slide-content">
-              <h2>SELAMAT HARI GURU NASIONAL<br>25 November 2025</h2>
-                    <p>Selamat Hari Guru Nasional 2025. Terima kasih atas segala ilmu, nilai, dan keteladanan yang Bapak/Ibu berikan.</p>
-                    
-                    <a href="https://smknegeriempatmanado-spec.github.io/galerismkn4manado" class="btn">MOMEN HARI GURU</a>
-                </div>
-            </div>
+            
             <div class="slide">
-                <img src="https://i.ibb.co/3s1T7Qz/slide2.jpg" alt="Pembelajaran">
+                <img src="image/s2.jpg" alt="Pembelajaran">
                 <div class="slide-content">
                     <h2>Pembelajaran Berbasis Teknologi</h2>
                     <p>Fasilitas modern dengan laboratorium lengkap</p>
-                    <a href="#" class="btn">LIHAT FASILITAS</a>
+                    <a href="#" class="btn-glow">LIHAT FASILITAS</a>
                 </div>
             </div>
             <div class="slide">
-                <img src="https://i.ibb.co/7yX3v6W/slide3.jpg" alt="Prestasi">
+                <img src="image/s3.jpg" alt="Prestasi">
                 <div class="slide-content">
                     <h2>Raih Prestasi Gemilang</h2>
                     <p>Berbagai juara kompetisi tingkat nasional</p>
-                    <a href="#" class="btn">PRESTASI KAMI</a>
+                    <a href="#" class="btn-glow">PRESTASI KAMI</a>
                 </div>
             </div>
         </div>
@@ -139,110 +98,84 @@
             <span class="dot" data-slide="2"></span>
         </div>
     </section>
-<section class="middle-image-section">
-    <div class="container">
-        <div class="image-box-left">
-            <img src="image/gratianus.jpg" alt="Gratianus G.S. Sentinuwo">
-            <div class="image-box-content">
-                <h3>Sambutan Kepala Sekolah</h3>
-                <p><div class="sambutan-kepala-sekolah">
-                  <p style="text-align: justify;">
-    <p>Assalamu alaikum warahmatullahi wabarakatuh,<br>
-    Shalom,<br>
-    Om Swastiastu,<br>
-    Namo Buddhaya,<br>
-    Rahayu,</p>
-    
-    <p>Puji Tuhan kami panjatkan, bahwasannya dengan rahmat dan karunia-Nya lah akhirnya Website sekolah ini dengan alamat <a href="https://smknegeriempatmanado-spec.github.io" target="_blank">https://smknegeriempatmanado-spec.github.io</a> dapat kami publikasikan. Kami mengucapkan selamat datang di Website kami Sekolah Menengah Kejuruan Negeri 4 Manado yang saya tujukan untuk seluruh unsur pimpinan, guru, karyawan dan siswa serta khalayak umum guna dapat mengakses seluruh informasi tentang segala profil, aktifitas/kegiatan serta fasilitas sekolah kami.</p>
-    
-    <p>Saya berharap Website ini dapat dijadikan wahana interaksi yang positif baik antar civitas akademika maupun masyarakat pada umumnya sehingga dapat menjalin silaturahmi yang erat disegala unsur. Mari kita bekerja dan berkarya dengan mengharap ridho sang Kuasa dan keikhlasan yang tulus dijiwa demi anak bangsa.</p>
-    
-    <p>Terima kasih semoga Tuhan menyertai doa kita semua……amin.</p>
-    
-    <p>Wassalamu alaikum warrahmatullahi wabarakatuh,<br>
-    Shalom,<br>
-    Om Santi Santi Om,<br>
-    Namo Buddhaya,<br>
-    Rahayu.</p>
-    
-    <div class="tanda-tangan">
-        <p>Manado 2025<br>
-        Kepala Sekolah<br>
-        SMK Negeri 4 Manado</p>
-        
-        <p class="nama-kepala-sekolah">Gratianus G.S. Sentinuwo,S.Pd</p>
-    </div>
-</div></p>
-                          <hr>
-        <p><h3>Film Pendek Dokumenter Marcelinda Kawengke(SMKN 4 Manado)</h3></p>
-        <iframe 
-    width="100%" 
-    height="200" 
-    src="https://www.youtube.com/embed/LpApiv43L94?autoplay=1&mute=1&start=30" 
-    title="YouTube video player" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen>
-</iframe>  
-                <hr>
-        <p><h3>MUSIK TRADISI DAERAH(SMKN4 Manado)</h3></p>
-        <iframe 
-    width="100%" 
-    height="200" 
-    src="https://www.youtube.com/embed/Al75llhCvbo?autoplay=1&mute=1&start=30" 
-    title="YouTube video player" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen>
-</iframe>     
-                       <hr>
-        <p><h3>Film Pendek Pasti Ada Jalan SMKN 4 Manado</h3></p>
-        <iframe 
-    width="100%" 
-    height="200" 
-    src="https://www.youtube.com/embed/3hYHB1cvCw0?autoplay=1&mute=1&start=30" 
-    title="YouTube video player" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen>
-</iframe>  
-        
-        <hr>
-        <p><h3>MARS SMKN 4 Manado</h3></p>
-        <iframe 
-    width="100%" 
-    height="200" 
-    src="https://www.youtube.com/embed/96pyTrfSVG8?autoplay=1&mute=1&start=30" 
-    title="YouTube video player" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen>
-</iframe>
-    <!-- Info Section -->
-    <section class="info-section">
+    <!-- Welcome Section (Kepala Sekolah & Videos) -->
+    <section class="welcome-section">
         <div class="container">
-            <div class="info-box">
-                <i class="fas fa-graduation-cap"></i>
-                <h3>300+</h3>
-                <p>Siswa Aktif</p>
-            </div>
-            <div class="info-box">
-                <i class="fas fa-chalkboard-teacher"></i>
-                <h3>30+</h3>
-                <p>Guru Profesional</p>
-            </div>
-            <div class="info-box">
-                <i class="fas fa-award"></i>
-                <h3>50+</h3>
-                <p>Prestasi Nasional</p>
-            </div>
-            <div class="info-box">
-                <i class="fas fa-building"></i>
-                <h3>9+</h3>
-                <p>Ruang Praktik</p>
+            <div class="welcome-grid">
+                <div class="welcome-text">
+                    <div class="principal-card">
+                        <img src="image/gratianus.jpg" alt="Gratianus G.S. Sentinuwo">
+                        <div class="principal-content">
+                            <h3>Sambutan Kepala Sekolah</h3>
+                            <div class="sambutan-text">
+                                <p>Assalamu alaikum warahmatullahi wabarakatuh, Shalom, Om Swastiastu, Namo Buddhaya, Rahayu.</p>
+                                <p>Puji Tuhan kami panjatkan, bahwasannya dengan rahmat dan karunia-Nya lah akhirnya Website sekolah ini dapat kami publikasikan. Kami mengucapkan selamat datang di Website SMK Negeri 4 Manado.</p>
+                                <p>Saya berharap Website ini dapat dijadikan wahana interaksi yang positif baik antar civitas akademika maupun masyarakat pada umumnya. Mari kita bekerja dan berkarya demi anak bangsa.</p>
+                                <div class="tanda-tangan">
+                                    <p>Manado 2025<br>Kepala Sekolah<br><strong>Gratianus G.S. Sentinuwo, S.Pd</strong></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="welcome-videos">
+                    <div class="video-item">
+                        <h4>Film Pendek Dokumenter</h4>
+                        <iframe src="https://www.youtube.com/embed/LpApiv43L94?mute=1" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-item">
+                        <h4>Musik Tradisi Daerah</h4>
+                        <iframe src="https://www.youtube.com/embed/Al75llhCvbo?mute=1" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-item">
+                        <h4>Film Pendek Pasti Ada Jalan</h4>
+                        <iframe src="https://www.youtube.com/embed/3hYHB1cvCw0?mute=1" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-item">
+                        <h4>Mars SMKN 4 Manado</h4>
+                        <iframe src="https://www.youtube.com/embed/96pyTrfSVG8?mute=1" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
+
+    <!-- Info Section -->
+    <section class="info-section">
+        <div class="container">
+            <div class="info-grid">
+                <div class="info-box">
+                    <i class="fas fa-graduation-cap"></i>
+                    <div class="info-data">
+                        <h3>300+</h3>
+                        <p>Siswa Aktif</p>
+                    </div>
+                </div>
+                <div class="info-box">
+                    <i class="fas fa-chalkboard-teacher"></i>
+                    <div class="info-data">
+                        <h3>30+</h3>
+                        <p>Guru Profesional</p>
+                    </div>
+                </div>
+                <div class="info-box">
+                    <i class="fas fa-award"></i>
+                    <div class="info-data">
+                        <h3>50+</h3>
+                        <p>Prestasi</p>
+                    </div>
+                </div>
+                <div class="info-box">
+                    <i class="fas fa-building"></i>
+                    <div class="info-data">
+                        <h3>9+</h3>
+                        <p>Ruang Praktik</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <!-- Berita Section -->
     <section class="berita-section">
@@ -278,8 +211,8 @@
                     </div>
                 </div>
             </div>
-            <div class="text-center">
-                <a href="#" class="btn">LIHAT SEMUA BERITA</a>
+            <div class="quick-links">
+                <a href="#" class="btn-glow">LIHAT SEMUA BERITA</a>
             </div>
         </div>
     </section>
@@ -287,53 +220,37 @@
     <!-- Program Section -->
     <section class="program-section">
         <div class="container">
-            <h2 class="section-title">PROGRAM KEAHLIAN UNGGULAN</h2>
+            <h2 class="section-title">PROGRAM KEAHLIAN</h2>
             <div class="program-grid">
-                  <a href="https://smknegeriempatmanado-spec.github.io/infoprogramkeahliansmk4" class="program-card-link">
-                <div class="program-card">
-                    <div class="program-icon">
-                        <i class="fas fa-photo-video"></i>
-                    </div>
-                    <h3>Broadcasting dan Perfilman</h3>
-                    <p>proses teknis dan kreatif untuk menciptakan konten media yang akan disiarkan atau didistribusikan</p>
-                </div>
-                  <a href="https://smknegeriempatmanado-spec.github.io/infoprogramkeahliansmk4" class="program-card-link">
-                <div class="program-card">
-                    <div class="program-icon">
-                        <i class="fas fa-photo-video"></i>
-                    </div>
-                    <h3> Manajemen Perkantoran dan Layanan Bisnis</h3>
-                    <p>Pengembangan Aplikasi Perkantoran, microsoft Office, Manajemen Keuangan dan Bisnis</p>
-                </div>
-                  <a href="https://smknegeriempatmanado-spec.github.io/infoprogramkeahliansmk4" class="program-card-link">
-                <div class="program-card">
-                    <div class="program-icon">
-                        <i class="fas fa-photo-video"></i>
-                    </div>
+                <a href="https://smknegeriempatmanado-spec.github.io/infoprogramkeahliansmk4" class="program-card">
+                    <div class="program-icon"><i class="fas fa-video"></i></div>
+                    <h3>Broadcasting</h3>
+                    <p>Proses kreatif konten media digital.</p>
+                </a>
+                <a href="https://smknegeriempatmanado-spec.github.io/infoprogramkeahliansmk4" class="program-card">
+                    <div class="program-icon"><i class="fas fa-briefcase"></i></div>
+                    <h3>Manajemen Kantor</h3>
+                    <p>Layanan bisnis dan manajemen perkantoran.</p>
+                </a>
+                <a href="https://smknegeriempatmanado-spec.github.io/infoprogramkeahliansmk4" class="program-card">
+                    <div class="program-icon"><i class="fas fa-user-md"></i></div>
                     <h3>Layanan Kesehatan</h3>
-                    <p>program keahlian yang bertujuan untuk menghasilkan tenaga profesional di bidang kesehatan, seperti asisten perawat, asisten apoteker, atau analis kesehatan</p>
-                </div>
-                  </a>
-                        <a href="https://smknegeriempatmanado-spec.github.io/infoprogramkeahliansmk4" class="program-card-link">
-                <div class="program-card">
-                    <div class="program-icon">
-                        <i class="fas fa-photo-video"></i>
-                    </div>
+                    <p>Tenaga profesional di bidang kesehatan.</p>
+                </a>
+                <a href="https://smknegeriempatmanado-spec.github.io/infoprogramkeahliansmk4" class="program-card">
+                    <div class="program-icon"><i class="fas fa-hands-helping"></i></div>
                     <h3>Pekerjaan Sosial</h3>
-                    <p>berfokus pada peningkatan kesejahteraan individu, keluarga, kelompok, dan komunitas dengan membantu mereka mengatasi tantangan hidup dan mencapai potensi penuh</p>
-                </div>
-                 <a href="https://smknegeriempatmanado-spec.github.io/infoprogramkeahliansmk4" class="program-card-link">
-                <div class="program-card">
-                    <div class="program-icon">
-                        <i class="fas fa-network-wired"></i>
-                    </div>
-                 <h3> Teknik Jaringan Komputer Dan Telekomunikasi</h3>
-                    <p>Mempelajari Perakitan komputer, Jaringan, dan Keamanan Sistem</p>
-                 </div>
-                 </a>
+                    <p>Peningkatan kesejahteraan komunitas.</p>
+                </a>
+                <a href="https://smknegeriempatmanado-spec.github.io/infoprogramkeahliansmk4" class="program-card">
+                    <div class="program-icon"><i class="fas fa-network-wired"></i></div>
+                    <h3>Teknik Jaringan</h3>
+                    <p>Komputer dan sistem telekomunikasi.</p>
+                </a>
             </div>
         </div>
     </section>
+
 
     <!-- Footer -->
     <footer>
@@ -381,93 +298,5 @@
 
     <script src="script.js"></script>
 </body>
-
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
